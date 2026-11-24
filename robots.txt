@@ -1,0 +1,19 @@
+# Tout le site est ouvert aux moteurs de recherche.
+User-agent: *
+Allow: /
+
+# Moteurs et assistants IA, autorisés explicitement.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+# À activer une fois le nom de domaine connu :
+# Sitemap: https://DOMAINE/sitemap.xml
